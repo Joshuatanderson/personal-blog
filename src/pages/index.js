@@ -21,6 +21,7 @@ const IndexPage = ({
       <Helmet>
         <title>{site.siteMetadata.title}</title>
         <meta name="description" content={site.siteMetadata.description} />
+		<meta name="w3l-domain-verification" content="5ea370c702601CF_Domain_verify"/> 
         {!site.siteMetadata.w3l_dom_key ? null : <meta name="w3l-domain-verification" content={site.siteMetadata.w3l_dom_key} />}
       </Helmet>
       <HeroHeader/>
